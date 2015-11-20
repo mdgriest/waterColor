@@ -21,7 +21,7 @@ void setup() {
   background(0, 0, 100);
   imageMode(CENTER);
   //Load the MOSAIC logo
-  logo = loadImage("mlogo00.png");
+  logo = loadImage("https://github.com/mdgriest/waterColor/blob/master/mlogo00.png");
   //Resize it to fit in our screen (does not protect aspect ratio)
   logo.resize(width, height);
 }//end setup()
@@ -64,4 +64,3 @@ void mouseMoved() {
 int mouseDistanceFromCenter() {
   return (int)sqrt( sq(mouseX - width/2) + sq(mouseY - height/2));
 }
-
